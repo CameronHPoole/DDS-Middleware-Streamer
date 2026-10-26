@@ -1,0 +1,7 @@
+// telemetry.idl
+module MissionOps {
+    struct AltitudeState {
+        double current_altitude;
+        long timestamp;
+    };
+};
